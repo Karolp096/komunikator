@@ -1,0 +1,50 @@
+{
+  "name": "komunikator",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "startBackend": "node backend/authServer.js & node backend/server.js",
+    "devBackend": "nodemon backend/authServer.js & nodemon backend/server.js",
+    "dev": "nodemon backend/authServer.js & nodemon backend/server.js & vite frontend",
+    "buildFrontend": "vite build frontend",
+    "lint": "eslint .",
+    "previewFrontend": "vite preview frontend"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "bcrypt": "^6.0.0",
+    "class-variance-authority": "^0.7.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "i18next": "^26.4.2",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-http-backend": "^4.0.2",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.24.0",
+    "mysql2": "^3.22.6",
+    "react": "^19.2.7",
+    "react-cookie": "^8.1.2",
+    "react-dom": "^19.2.7",
+    "react-i18next": "^17.0.13",
+    "react-router-dom": "^7.18.1",
+    "sequelize": "^6.37.8",
+    "sequelize-cli": "^6.6.5",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.3",
+    "use-debounce": "^10.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^10.6.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "nodemon": "^3.1.14",
+    "vite": "^8.1.1"
+  }
+}
