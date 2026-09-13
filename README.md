@@ -3,8 +3,6 @@
 
 Prosta aplikacja webowa do komunikowania się.
 
-*To jest dopiero pierwsza wersja aplikacji. W następnej dodane zostaną powiadomienia i możliwość zmiany schematu kolorów*
-
 &nbsp;
 
 ![Aplikacja](readme-img/aplikacja.png)
@@ -36,3 +34,5 @@ Następnie trzeba utworzyć bazę danych o nazwie wskazanej w pliku backend/conf
 Po utworzeniu i wypełnieniu wszystkich plików konfiguracyjnych możemy uruchomić serwer za pomocą komendy:
 
     npm run dev
+
+*To jest dopiero pierwsza wersja aplikacji. W następnej dodane zostaną powiadomienia i możliwość zmiany schematu kolorów*
