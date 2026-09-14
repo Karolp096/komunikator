@@ -35,4 +35,4 @@ Po utworzeniu i wypełnieniu wszystkich plików konfiguracyjnych możemy uruchom
 
     npm run dev
 
-*To jest dopiero pierwsza wersja aplikacji. W następnej dodane zostaną powiadomienia i możliwość zmiany schematu kolorów*
+*To jest dopiero pierwsza wersja aplikacji. W następnych dodane zostaną powiadomienia i możliwość zmiany schematu kolorów, itd.*
